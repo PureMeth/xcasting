@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Xbox Streamer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Xbox Streamer</h1>
+  </header>
+  
+  <main>
+    <div id="auth-section">
+      <p>Connect your Xbox and stream to your browser!</p>
+      <button id="login-button">Login with Xbox</button>
+    </div>
+    
+    <div id="stream-section" style="display: none;">
+      <video id="stream-video" autoplay muted playsinline></video>
+      <button id="disconnect-button">Disconnect</button>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Xbox Streamer. All rights reserved.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
